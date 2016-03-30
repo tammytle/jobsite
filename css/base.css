@@ -1,0 +1,131 @@
+/* FONTS */
+
+h1, h2, h3, h4, h5, h6, body {
+	font-family: 'Gotham Book', sans-serif;
+}
+
+@font-face {
+    font-family: Gotham Book;
+    src: url(../fonts/gotham-rounded-book.otf);
+}
+
+@font-face {
+    font-family: Gotham Medium;
+    src: url(../fonts/gotham-rounded-medium.otf);
+}
+
+.break {
+	padding: 20px;
+}
+
+/* COLORS */
+
+.grey {
+	background: #eaeaea;
+}
+
+/* NAV */
+
+.navbar {
+	padding: 10px;
+	margin-bottom: 3%;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+}
+
+.navigation li {
+	float: left;
+	display: inline;
+	padding: 5px 15px;
+}
+
+/* JOB TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, tbody, td, th {
+  border: 0;
+}
+
+.section {
+  padding: 12%;
+}
+
+.tealBg {
+  background: #009889;
+}
+
+.white {
+  color: #fff;
+}
+
+.btnRound {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  background: transparent;
+}
+
+.btnRound:hover {
+  background: #fff;
+  color: #009889;
+}
+
+.btnPad {
+  padding: 10px 20px;
+}
+
+.whiteLink {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.whiteLink:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+hr {
+  border-color: #fff;
+}
+
+.loginBtn {
+  width: 100%;
+}
+
+.darktealBtn {
+  background: #04685A;
+  border-radius: 25px;
+  border: 0;
+}
+
+.darktealBtn:hover {
+  background: #fff;
+  color: #04685A;
+}
+
+.teal {
+  color: #04685A;
+}
+
+.darkteal {
+  color: #04685A;
+}
+
+.darkteal:hover {
+  color: #04685A;
+  border-bottom: 1px solid #04685A;
+}
+
+.lighttealBg {
+  background: #F2F2F2;
+}
